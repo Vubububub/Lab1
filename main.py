@@ -1,5 +1,5 @@
 import pandas as pd #https://www.kaggle.com/datasets/rishisukumar/student-screen-time-vs-cgpa-analysis-2026
-df = pd.read_csv("G:/Student_Performance_2026.csv")
+df = pd.read_csv("D:/Student_Performance_2026.csv")
 print(df.info())
 print(df.isnull().sum())
 from sklearn.preprocessing import MinMaxScaler
