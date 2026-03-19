@@ -20,8 +20,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
-X_val, X_test, y_val, y_test = train_test_split(X_test, y_test, test_size=0.5, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 linear_model = LinearRegression()
 linear_model.fit(X_train, y_train)
 y_predict_test = linear_model.predict(X_test)
@@ -33,7 +32,6 @@ print("R²:", r2, "RMSE:", math.sqrt(mse), "MAE:", mae)
 
 threshold = df['current_sem_CGPA'].mean()
 y_train_class = (y_train >= threshold)
-y_val_class   = (y_val >= threshold)
 y_test_class  = (y_test >= threshold)
 
 from sklearn.linear_model import LogisticRegression

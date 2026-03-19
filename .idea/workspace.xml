@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="029bbda6-f0f1-46eb-a6ee-65e8ade28f9b" name="Changes" comment="Убрал нормализацию часов и возраста">
+    <list default="true" id="029bbda6-f0f1-46eb-a6ee-65e8ade28f9b" name="Changes" comment="Выполнил 2 лабу, релизовал регрессию и классификацию с оценкой результатов, удалил previous_sem_CGPA из датасетика">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Performance_2026_processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Performance_2026_processed.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +27,22 @@
     &quot;assignee&quot;: &quot;Vubububub&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Vubububub/Lab1.git&quot;,
-    &quot;accountId&quot;: &quot;3181071e-960e-4b00-9a08-1bab45679758&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vubububub/Lab1.git",
+    "accountId": "3181071e-960e-4b00-9a08-1bab45679758"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "Vubububub",
+    "repository": "Lab1"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,7 +56,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lab2"
+    "git-widget-placeholder": "#2 on Lab2"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -98,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772708407800</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Выполнил 2 лабу, релизовал регрессию и классификацию с оценкой результатов, удалил previous_sem_CGPA из датасетика">
+      <option name="closed" value="true" />
+      <created>1773883879006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773883879006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +199,7 @@
     <MESSAGE value="добавил выгрузку" />
     <MESSAGE value="Добавил файл, сделал новую веточку" />
     <MESSAGE value="Убрал нормализацию часов и возраста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрал нормализацию часов и возраста" />
+    <MESSAGE value="Выполнил 2 лабу, релизовал регрессию и классификацию с оценкой результатов, удалил previous_sem_CGPA из датасетика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил 2 лабу, релизовал регрессию и классификацию с оценкой результатов, удалил previous_sem_CGPA из датасетика" />
   </component>
 </project>
