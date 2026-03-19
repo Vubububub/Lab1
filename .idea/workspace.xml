@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="029bbda6-f0f1-46eb-a6ee-65e8ade28f9b" name="Changes" comment="Добавил файл, сделал новую веточку">
+    <list default="true" id="029bbda6-f0f1-46eb-a6ee-65e8ade28f9b" name="Changes" comment="Убрал нормализацию часов и возраста">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Performance_2026_processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Performance_2026_processed.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lab1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +47,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#1 on Lab1"
+    "git-widget-placeholder": "Lab2"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -90,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772704296546</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Убрал нормализацию часов и возраста">
+      <option name="closed" value="true" />
+      <created>1772708407800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772708407800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,12 +109,27 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="Lab1" />
+                  <option value="Lab2" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Lab1" />
                 </option>
               </RecentGroup>
             </list>
@@ -135,7 +158,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lab1" />
+                        <option value="Lab2" />
                       </list>
                     </value>
                   </entry>
@@ -158,6 +181,7 @@
     <MESSAGE value="Сделал лабу короче" />
     <MESSAGE value="добавил выгрузку" />
     <MESSAGE value="Добавил файл, сделал новую веточку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил файл, сделал новую веточку" />
+    <MESSAGE value="Убрал нормализацию часов и возраста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал нормализацию часов и возраста" />
   </component>
 </project>
