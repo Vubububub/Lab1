@@ -6,7 +6,6 @@ print(df.isnull().sum())
 df=df.drop('previous_sem_CGPA', axis=1)
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
-df[['current_sem_CGPA']]= scaler.fit_transform(df[['current_sem_CGPA']])
 df[['attendance_percentage']]= scaler.fit_transform(df[['attendance_percentage']])
 df = pd.get_dummies(df, columns=['Gender'], drop_first=True)
 print(df.info())
