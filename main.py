@@ -14,8 +14,8 @@ df = pd.read_csv("D:/student_exam_performance_dataset.csv")
 print(df.info())
 print(df.isnull().sum())
 
-df = df.drop(['age','student_id'], axis=1)
-df = pd.get_dummies(df, columns=['study_environment','parental_education','family_income','grade_category'], drop_first=False)
+df = df.drop(['age','student_id','grade_category'], axis=1)
+df = pd.get_dummies(df, columns=['study_environment','parental_education','family_income'], drop_first=False)
 df = pd.get_dummies(df, columns=['tutoring','pass_fail','gender','internet_access'], drop_first=True)
 
 print(df.info())
