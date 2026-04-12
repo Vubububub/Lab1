@@ -30,11 +30,13 @@ y_test = test_df['final_exam_score']
 reg_model = DecisionTreeRegressor(max_depth=6,min_samples_leaf=5,min_samples_split=10,random_state=42)
 reg_model.fit(X_train, y_train)
 y_pred = reg_model.predict(X_test)
+y_predt = reg_model.predict(X_train)
 
+r2t = r2_score(y_train, y_predt)
 r2 = r2_score(y_test, y_pred)
 mse = mean_squared_error(y_test, y_pred)
 mae = mean_absolute_error(y_test, y_pred)
-print("R²:", r2, "RMSE:", math.sqrt(mse), "MAE:", mae)
+print("R²:", r2,"train R²:", r2t, "RMSE:", math.sqrt(mse), "MAE:", mae)
 
 y_train_c = train_df['pass_fail_Pass']
 y_test_c = test_df['pass_fail_Pass']
@@ -76,7 +78,14 @@ plt.ylabel('True label')
 plt.xlabel('Predicted label')
 plt.show()
 
-plt.figure(figsize=(16,10))
-tree.plot_tree(reg_model, filled=True, feature_names=X_train.columns)
+
+plt.figure(figsize=(25,15))
 plt.title("Decision Tree Regressor")
+tree.plot_tree(reg_model,filled=True, feature_names=X_train.columns,fontsize=12)
 plt.show()
+
+plt.figure(figsize=(25,15))
+plt.title("Decision Tree Regressor")
+tree.plot_tree(clf_model,filled=True, feature_names=X_train.columns,fontsize=12)
+plt.show()
+
